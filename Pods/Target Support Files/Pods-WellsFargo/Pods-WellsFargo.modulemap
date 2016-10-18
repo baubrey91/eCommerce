@@ -1,0 +1,6 @@
+framework module Pods_WellsFargo {
+  umbrella header "Pods-WellsFargo-umbrella.h"
+
+  export *
+  module * { export * }
+}

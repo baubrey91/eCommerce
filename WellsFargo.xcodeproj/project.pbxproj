@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0BC23F7B0C96579110B5B2 /* Pods_WellsFargo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D0B98566D6E31F60717F7A /* Pods_WellsFargo.framework */; };
+		392241101D96F1ED00546328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922410F1D96F1ED00546328 /* AppDelegate.swift */; };
+		392241121D96F1ED00546328 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241111D96F1ED00546328 /* loginViewController.swift */; };
+		392241151D96F1ED00546328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392241131D96F1ED00546328 /* Main.storyboard */; };
+		392241181D96F1ED00546328 /* WellsFargo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392241161D96F1ED00546328 /* WellsFargo.xcdatamodeld */; };
+		3922411A1D96F1ED00546328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392241191D96F1ED00546328 /* Assets.xcassets */; };
+		3922411D1D96F1ED00546328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3922411B1D96F1ED00546328 /* LaunchScreen.storyboard */; };
+		392241281D96F1ED00546328 /* WellsFargoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241271D96F1ED00546328 /* WellsFargoTests.swift */; };
+		392241331D96F1ED00546328 /* WellsFargoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241321D96F1ED00546328 /* WellsFargoUITests.swift */; };
+		392241451D97746500546328 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241441D97746500546328 /* mainViewController.swift */; };
+		392241491D97A74A00546328 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241481D97A74A00546328 /* User.swift */; };
+		3940BA501DB2C5180048A4D3 /* storeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940BA4F1DB2C5180048A4D3 /* storeViewController.swift */; };
+		CA2727331DB350D600307044 /* pageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2727321DB350D600307044 /* pageViewController.swift */; };
+		CA2727351DB3527500307044 /* pageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2727341DB3527500307044 /* pageContentViewController.swift */; };
+		CA2E5F1F1DB2FB9500FFB6D4 /* storeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5F1E1DB2FB9500FFB6D4 /* storeCell.swift */; };
+		CA2E5F211DB31C9C00FFB6D4 /* storeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5F201DB31C9C00FFB6D4 /* storeItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		392241241D96F1ED00546328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392241041D96F1ED00546328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3922410B1D96F1ED00546328;
+			remoteInfo = WellsFargo;
+		};
+		3922412F1D96F1ED00546328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392241041D96F1ED00546328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3922410B1D96F1ED00546328;
+			remoteInfo = WellsFargo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3922410C1D96F1ED00546328 /* WellsFargo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsFargo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3922410F1D96F1ED00546328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		392241111D96F1ED00546328 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		392241141D96F1ED00546328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		392241171D96F1ED00546328 /* WellsFargo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellsFargo.xcdatamodel; sourceTree = "<group>"; };
+		392241191D96F1ED00546328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3922411C1D96F1ED00546328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3922411E1D96F1ED00546328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392241231D96F1ED00546328 /* WellsFargoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellsFargoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392241271D96F1ED00546328 /* WellsFargoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellsFargoTests.swift; sourceTree = "<group>"; };
+		392241291D96F1ED00546328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3922412E1D96F1ED00546328 /* WellsFargoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellsFargoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392241321D96F1ED00546328 /* WellsFargoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellsFargoUITests.swift; sourceTree = "<group>"; };
+		392241341D96F1ED00546328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392241441D97746500546328 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		392241481D97A74A00546328 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3940BA4F1DB2C5180048A4D3 /* storeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storeViewController.swift; sourceTree = "<group>"; };
+		98DC2F835EA17660C071879C /* Pods-WellsFargo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellsFargo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellsFargo/Pods-WellsFargo.release.xcconfig"; sourceTree = "<group>"; };
+		ADC600E2A03FE7C6FBF718FB /* Pods-WellsFargo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellsFargo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellsFargo/Pods-WellsFargo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA2727321DB350D600307044 /* pageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageViewController.swift; sourceTree = "<group>"; };
+		CA2727341DB3527500307044 /* pageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageContentViewController.swift; sourceTree = "<group>"; };
+		CA2E5F1E1DB2FB9500FFB6D4 /* storeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storeCell.swift; sourceTree = "<group>"; };
+		CA2E5F201DB31C9C00FFB6D4 /* storeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storeItem.swift; sourceTree = "<group>"; };
+		E1D0B98566D6E31F60717F7A /* Pods_WellsFargo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WellsFargo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392241091D96F1ED00546328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0BC23F7B0C96579110B5B2 /* Pods_WellsFargo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392241201D96F1ED00546328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3922412B1D96F1ED00546328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03504B36974B42AB6CB47972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D0B98566D6E31F60717F7A /* Pods_WellsFargo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		392241031D96F1ED00546328 = {
+			isa = PBXGroup;
+			children = (
+				3922410E1D96F1ED00546328 /* WellsFargo */,
+				392241261D96F1ED00546328 /* WellsFargoTests */,
+				392241311D96F1ED00546328 /* WellsFargoUITests */,
+				3922410D1D96F1ED00546328 /* Products */,
+				C98F91F3D20E4C130D79E611 /* Pods */,
+				03504B36974B42AB6CB47972 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3922410D1D96F1ED00546328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3922410C1D96F1ED00546328 /* WellsFargo.app */,
+				392241231D96F1ED00546328 /* WellsFargoTests.xctest */,
+				3922412E1D96F1ED00546328 /* WellsFargoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3922410E1D96F1ED00546328 /* WellsFargo */ = {
+			isa = PBXGroup;
+			children = (
+				CA2727361DB4448D00307044 /* View */,
+				3922410F1D96F1ED00546328 /* AppDelegate.swift */,
+				3922414A1D97AA3700546328 /* Model */,
+				392241111D96F1ED00546328 /* loginViewController.swift */,
+				392241441D97746500546328 /* mainViewController.swift */,
+				CA2727341DB3527500307044 /* pageContentViewController.swift */,
+				CA2727321DB350D600307044 /* pageViewController.swift */,
+				3940BA4F1DB2C5180048A4D3 /* storeViewController.swift */,
+				392241131D96F1ED00546328 /* Main.storyboard */,
+				3922411B1D96F1ED00546328 /* LaunchScreen.storyboard */,
+				3922411E1D96F1ED00546328 /* Info.plist */,
+				392241191D96F1ED00546328 /* Assets.xcassets */,
+				392241161D96F1ED00546328 /* WellsFargo.xcdatamodeld */,
+			);
+			path = WellsFargo;
+			sourceTree = "<group>";
+		};
+		392241261D96F1ED00546328 /* WellsFargoTests */ = {
+			isa = PBXGroup;
+			children = (
+				392241271D96F1ED00546328 /* WellsFargoTests.swift */,
+				392241291D96F1ED00546328 /* Info.plist */,
+			);
+			path = WellsFargoTests;
+			sourceTree = "<group>";
+		};
+		392241311D96F1ED00546328 /* WellsFargoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				392241321D96F1ED00546328 /* WellsFargoUITests.swift */,
+				392241341D96F1ED00546328 /* Info.plist */,
+			);
+			path = WellsFargoUITests;
+			sourceTree = "<group>";
+		};
+		3922414A1D97AA3700546328 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				392241481D97A74A00546328 /* User.swift */,
+				CA2E5F201DB31C9C00FFB6D4 /* storeItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C98F91F3D20E4C130D79E611 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADC600E2A03FE7C6FBF718FB /* Pods-WellsFargo.debug.xcconfig */,
+				98DC2F835EA17660C071879C /* Pods-WellsFargo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA2727361DB4448D00307044 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E5F1E1DB2FB9500FFB6D4 /* storeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3922410B1D96F1ED00546328 /* WellsFargo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392241371D96F1ED00546328 /* Build configuration list for PBXNativeTarget "WellsFargo" */;
+			buildPhases = (
+				53C89333891B096E1A776D61 /* [CP] Check Pods Manifest.lock */,
+				392241081D96F1ED00546328 /* Sources */,
+				392241091D96F1ED00546328 /* Frameworks */,
+				3922410A1D96F1ED00546328 /* Resources */,
+				DA7EE7D2968D747D099FE0B7 /* [CP] Embed Pods Frameworks */,
+				6F145814A82DA354EB1264F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellsFargo;
+			productName = WellsFargo;
+			productReference = 3922410C1D96F1ED00546328 /* WellsFargo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		392241221D96F1ED00546328 /* WellsFargoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3922413A1D96F1ED00546328 /* Build configuration list for PBXNativeTarget "WellsFargoTests" */;
+			buildPhases = (
+				3922411F1D96F1ED00546328 /* Sources */,
+				392241201D96F1ED00546328 /* Frameworks */,
+				392241211D96F1ED00546328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392241251D96F1ED00546328 /* PBXTargetDependency */,
+			);
+			name = WellsFargoTests;
+			productName = WellsFargoTests;
+			productReference = 392241231D96F1ED00546328 /* WellsFargoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3922412D1D96F1ED00546328 /* WellsFargoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3922413D1D96F1ED00546328 /* Build configuration list for PBXNativeTarget "WellsFargoUITests" */;
+			buildPhases = (
+				3922412A1D96F1ED00546328 /* Sources */,
+				3922412B1D96F1ED00546328 /* Frameworks */,
+				3922412C1D96F1ED00546328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392241301D96F1ED00546328 /* PBXTargetDependency */,
+			);
+			name = WellsFargoUITests;
+			productName = WellsFargoUITests;
+			productReference = 3922412E1D96F1ED00546328 /* WellsFargoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392241041D96F1ED00546328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Brandon Aubrey";
+				TargetAttributes = {
+					3922410B1D96F1ED00546328 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 68W2B53UFP;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					392241221D96F1ED00546328 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 68W2B53UFP;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3922410B1D96F1ED00546328;
+					};
+					3922412D1D96F1ED00546328 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 68W2B53UFP;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3922410B1D96F1ED00546328;
+					};
+				};
+			};
+			buildConfigurationList = 392241071D96F1ED00546328 /* Build configuration list for PBXProject "WellsFargo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392241031D96F1ED00546328;
+			productRefGroup = 3922410D1D96F1ED00546328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3922410B1D96F1ED00546328 /* WellsFargo */,
+				392241221D96F1ED00546328 /* WellsFargoTests */,
+				3922412D1D96F1ED00546328 /* WellsFargoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3922410A1D96F1ED00546328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3922411D1D96F1ED00546328 /* LaunchScreen.storyboard in Resources */,
+				3922411A1D96F1ED00546328 /* Assets.xcassets in Resources */,
+				392241151D96F1ED00546328 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392241211D96F1ED00546328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3922412C1D96F1ED00546328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53C89333891B096E1A776D61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F145814A82DA354EB1264F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellsFargo/Pods-WellsFargo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7EE7D2968D747D099FE0B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellsFargo/Pods-WellsFargo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		392241081D96F1ED00546328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2E5F211DB31C9C00FFB6D4 /* storeItem.swift in Sources */,
+				3940BA501DB2C5180048A4D3 /* storeViewController.swift in Sources */,
+				392241121D96F1ED00546328 /* loginViewController.swift in Sources */,
+				CA2727331DB350D600307044 /* pageViewController.swift in Sources */,
+				392241101D96F1ED00546328 /* AppDelegate.swift in Sources */,
+				392241491D97A74A00546328 /* User.swift in Sources */,
+				392241181D96F1ED00546328 /* WellsFargo.xcdatamodeld in Sources */,
+				CA2E5F1F1DB2FB9500FFB6D4 /* storeCell.swift in Sources */,
+				CA2727351DB3527500307044 /* pageContentViewController.swift in Sources */,
+				392241451D97746500546328 /* mainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3922411F1D96F1ED00546328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392241281D96F1ED00546328 /* WellsFargoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3922412A1D96F1ED00546328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392241331D96F1ED00546328 /* WellsFargoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392241251D96F1ED00546328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3922410B1D96F1ED00546328 /* WellsFargo */;
+			targetProxy = 392241241D96F1ED00546328 /* PBXContainerItemProxy */;
+		};
+		392241301D96F1ED00546328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3922410B1D96F1ED00546328 /* WellsFargo */;
+			targetProxy = 3922412F1D96F1ED00546328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		392241131D96F1ED00546328 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392241141D96F1ED00546328 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3922411B1D96F1ED00546328 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3922411C1D96F1ED00546328 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		392241351D96F1ED00546328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		392241361D96F1ED00546328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392241381D96F1ED00546328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC600E2A03FE7C6FBF718FB /* Pods-WellsFargo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = WellsFargo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		392241391D96F1ED00546328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DC2F835EA17660C071879C /* Pods-WellsFargo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = WellsFargo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3922413B1D96F1ED00546328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = WellsFargoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellsFargo.app/WellsFargo";
+			};
+			name = Debug;
+		};
+		3922413C1D96F1ED00546328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = WellsFargoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellsFargo.app/WellsFargo";
+			};
+			name = Release;
+		};
+		3922413E1D96F1ED00546328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = WellsFargoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WellsFargo;
+			};
+			name = Debug;
+		};
+		3922413F1D96F1ED00546328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = WellsFargoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WellsFargo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392241071D96F1ED00546328 /* Build configuration list for PBXProject "WellsFargo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392241351D96F1ED00546328 /* Debug */,
+				392241361D96F1ED00546328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392241371D96F1ED00546328 /* Build configuration list for PBXNativeTarget "WellsFargo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392241381D96F1ED00546328 /* Debug */,
+				392241391D96F1ED00546328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3922413A1D96F1ED00546328 /* Build configuration list for PBXNativeTarget "WellsFargoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3922413B1D96F1ED00546328 /* Debug */,
+				3922413C1D96F1ED00546328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3922413D1D96F1ED00546328 /* Build configuration list for PBXNativeTarget "WellsFargoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3922413E1D96F1ED00546328 /* Debug */,
+				3922413F1D96F1ED00546328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		392241161D96F1ED00546328 /* WellsFargo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				392241171D96F1ED00546328 /* WellsFargo.xcdatamodel */,
+			);
+			currentVersion = 392241171D96F1ED00546328 /* WellsFargo.xcdatamodel */;
+			path = WellsFargo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 392241041D96F1ED00546328 /* Project object */;
+}

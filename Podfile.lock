@@ -1,0 +1,25 @@
+PODS:
+  - IoniconsSwift (2.1.4)
+  - MIBadgeButton-Swift (0.4)
+
+DEPENDENCIES:
+  - IoniconsSwift (from `http://github.com/tidwall/IoniconsSwift.git`, branch `master`)
+  - MIBadgeButton-Swift
+
+EXTERNAL SOURCES:
+  IoniconsSwift:
+    :branch: master
+    :git: http://github.com/tidwall/IoniconsSwift.git
+
+CHECKOUT OPTIONS:
+  IoniconsSwift:
+    :commit: 6189f2c363b7694b89a1efea7bf29f967cb8b464
+    :git: http://github.com/tidwall/IoniconsSwift.git
+
+SPEC CHECKSUMS:
+  IoniconsSwift: a9034803dfe59ec48a73c95b812c67afdfa3ed08
+  MIBadgeButton-Swift: b5d07924904c84bcb8e8fe3c3131b8499f28930c
+
+PODFILE CHECKSUM: a47e7a006b7978b7874f0f722f47f75a8fd7da39
+
+COCOAPODS: 1.1.0.rc.2
