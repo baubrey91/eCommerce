@@ -9,20 +9,22 @@
 /* Begin PBXBuildFile section */
 		0A0BC23F7B0C96579110B5B2 /* Pods_WellsFargo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D0B98566D6E31F60717F7A /* Pods_WellsFargo.framework */; };
 		392241101D96F1ED00546328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922410F1D96F1ED00546328 /* AppDelegate.swift */; };
-		392241121D96F1ED00546328 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241111D96F1ED00546328 /* loginViewController.swift */; };
+		392241121D96F1ED00546328 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241111D96F1ED00546328 /* LoginViewController.swift */; };
 		392241151D96F1ED00546328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392241131D96F1ED00546328 /* Main.storyboard */; };
-		392241181D96F1ED00546328 /* WellsFargo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392241161D96F1ED00546328 /* WellsFargo.xcdatamodeld */; };
 		3922411A1D96F1ED00546328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392241191D96F1ED00546328 /* Assets.xcassets */; };
 		3922411D1D96F1ED00546328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3922411B1D96F1ED00546328 /* LaunchScreen.storyboard */; };
 		392241281D96F1ED00546328 /* WellsFargoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241271D96F1ED00546328 /* WellsFargoTests.swift */; };
 		392241331D96F1ED00546328 /* WellsFargoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241321D96F1ED00546328 /* WellsFargoUITests.swift */; };
-		392241451D97746500546328 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241441D97746500546328 /* mainViewController.swift */; };
+		392241451D97746500546328 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241441D97746500546328 /* MainViewController.swift */; };
 		392241491D97A74A00546328 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392241481D97A74A00546328 /* User.swift */; };
-		3940BA501DB2C5180048A4D3 /* storeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940BA4F1DB2C5180048A4D3 /* storeViewController.swift */; };
-		CA2727331DB350D600307044 /* pageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2727321DB350D600307044 /* pageViewController.swift */; };
-		CA2727351DB3527500307044 /* pageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2727341DB3527500307044 /* pageContentViewController.swift */; };
-		CA2E5F1F1DB2FB9500FFB6D4 /* storeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5F1E1DB2FB9500FFB6D4 /* storeCell.swift */; };
-		CA2E5F211DB31C9C00FFB6D4 /* storeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5F201DB31C9C00FFB6D4 /* storeItem.swift */; };
+		3940BA501DB2C5180048A4D3 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940BA4F1DB2C5180048A4D3 /* StoreViewController.swift */; };
+		3974784B1F81D439007AC5A0 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974784A1F81D439007AC5A0 /* HamburgerViewController.swift */; };
+		3974784D1F81D50B007AC5A0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974784C1F81D50B007AC5A0 /* MenuViewController.swift */; };
+		39D84FB21F6F2FBE00F5B764 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D84FB11F6F2FBE00F5B764 /* Client.swift */; };
+		39D84FB51F6F3D2B00F5B764 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D84FB41F6F3D2B00F5B764 /* HomeCollectionViewCell.swift */; };
+		39D88A3D1FBFEAD800926AFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D88A3C1FBFEAD800926AFC /* Constants.swift */; };
+		CA2E5F1F1DB2FB9500FFB6D4 /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5F1E1DB2FB9500FFB6D4 /* StoreCollectionViewCell.swift */; };
+		CA2E5F211DB31C9C00FFB6D4 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5F201DB31C9C00FFB6D4 /* StoreItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +47,8 @@
 /* Begin PBXFileReference section */
 		3922410C1D96F1ED00546328 /* WellsFargo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsFargo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3922410F1D96F1ED00546328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		392241111D96F1ED00546328 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		392241111D96F1ED00546328 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		392241141D96F1ED00546328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		392241171D96F1ED00546328 /* WellsFargo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellsFargo.xcdatamodel; sourceTree = "<group>"; };
 		392241191D96F1ED00546328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3922411C1D96F1ED00546328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3922411E1D96F1ED00546328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,15 +58,19 @@
 		3922412E1D96F1ED00546328 /* WellsFargoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellsFargoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		392241321D96F1ED00546328 /* WellsFargoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellsFargoUITests.swift; sourceTree = "<group>"; };
 		392241341D96F1ED00546328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		392241441D97746500546328 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		392241441D97746500546328 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		392241481D97A74A00546328 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		3940BA4F1DB2C5180048A4D3 /* storeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storeViewController.swift; sourceTree = "<group>"; };
+		393DC8E31F7170AA004C5BBC /* WellsFargo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WellsFargo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3940BA4F1DB2C5180048A4D3 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		3974784A1F81D439007AC5A0 /* HamburgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		3974784C1F81D50B007AC5A0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		39D84FB11F6F2FBE00F5B764 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		39D84FB41F6F3D2B00F5B764 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		39D88A3C1FBFEAD800926AFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		98DC2F835EA17660C071879C /* Pods-WellsFargo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellsFargo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellsFargo/Pods-WellsFargo.release.xcconfig"; sourceTree = "<group>"; };
 		ADC600E2A03FE7C6FBF718FB /* Pods-WellsFargo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellsFargo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellsFargo/Pods-WellsFargo.debug.xcconfig"; sourceTree = "<group>"; };
-		CA2727321DB350D600307044 /* pageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageViewController.swift; sourceTree = "<group>"; };
-		CA2727341DB3527500307044 /* pageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageContentViewController.swift; sourceTree = "<group>"; };
-		CA2E5F1E1DB2FB9500FFB6D4 /* storeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storeCell.swift; sourceTree = "<group>"; };
-		CA2E5F201DB31C9C00FFB6D4 /* storeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storeItem.swift; sourceTree = "<group>"; };
+		CA2E5F1E1DB2FB9500FFB6D4 /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA2E5F201DB31C9C00FFB6D4 /* StoreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
 		E1D0B98566D6E31F60717F7A /* Pods_WellsFargo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WellsFargo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +108,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3909C5EC1F6E482500134E72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				392241111D96F1ED00546328 /* LoginViewController.swift */,
+				392241441D97746500546328 /* MainViewController.swift */,
+				3940BA4F1DB2C5180048A4D3 /* StoreViewController.swift */,
+				3974784A1F81D439007AC5A0 /* HamburgerViewController.swift */,
+				3974784C1F81D50B007AC5A0 /* MenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		392241031D96F1ED00546328 = {
 			isa = PBXGroup;
 			children = (
@@ -128,19 +145,17 @@
 		3922410E1D96F1ED00546328 /* WellsFargo */ = {
 			isa = PBXGroup;
 			children = (
-				CA2727361DB4448D00307044 /* View */,
+				39D88A3B1FBFEAC700926AFC /* Other */,
 				3922410F1D96F1ED00546328 /* AppDelegate.swift */,
+				39D84FB31F6F2FC600F5B764 /* API */,
+				3909C5EC1F6E482500134E72 /* Controller */,
+				CA2727361DB4448D00307044 /* View */,
 				3922414A1D97AA3700546328 /* Model */,
-				392241111D96F1ED00546328 /* loginViewController.swift */,
-				392241441D97746500546328 /* mainViewController.swift */,
-				CA2727341DB3527500307044 /* pageContentViewController.swift */,
-				CA2727321DB350D600307044 /* pageViewController.swift */,
-				3940BA4F1DB2C5180048A4D3 /* storeViewController.swift */,
 				392241131D96F1ED00546328 /* Main.storyboard */,
 				3922411B1D96F1ED00546328 /* LaunchScreen.storyboard */,
 				3922411E1D96F1ED00546328 /* Info.plist */,
 				392241191D96F1ED00546328 /* Assets.xcassets */,
-				392241161D96F1ED00546328 /* WellsFargo.xcdatamodeld */,
+				393DC8E31F7170AA004C5BBC /* WellsFargo-Bridging-Header.h */,
 			);
 			path = WellsFargo;
 			sourceTree = "<group>";
@@ -167,9 +182,25 @@
 			isa = PBXGroup;
 			children = (
 				392241481D97A74A00546328 /* User.swift */,
-				CA2E5F201DB31C9C00FFB6D4 /* storeItem.swift */,
+				CA2E5F201DB31C9C00FFB6D4 /* StoreItem.swift */,
 			);
-			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39D84FB31F6F2FC600F5B764 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				39D84FB11F6F2FBE00F5B764 /* Client.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		39D88A3B1FBFEAC700926AFC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				39D88A3C1FBFEAD800926AFC /* Constants.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		C98F91F3D20E4C130D79E611 /* Pods */ = {
@@ -184,9 +215,10 @@
 		CA2727361DB4448D00307044 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CA2E5F1E1DB2FB9500FFB6D4 /* storeCell.swift */,
+				39D84FB41F6F3D2B00F5B764 /* HomeCollectionViewCell.swift */,
+				CA2E5F1E1DB2FB9500FFB6D4 /* StoreCollectionViewCell.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +293,7 @@
 					3922410B1D96F1ED00546328 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 68W2B53UFP;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					392241221D96F1ED00546328 = {
@@ -380,16 +412,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA2E5F211DB31C9C00FFB6D4 /* storeItem.swift in Sources */,
-				3940BA501DB2C5180048A4D3 /* storeViewController.swift in Sources */,
-				392241121D96F1ED00546328 /* loginViewController.swift in Sources */,
-				CA2727331DB350D600307044 /* pageViewController.swift in Sources */,
+				CA2E5F211DB31C9C00FFB6D4 /* StoreItem.swift in Sources */,
+				3940BA501DB2C5180048A4D3 /* StoreViewController.swift in Sources */,
+				392241121D96F1ED00546328 /* LoginViewController.swift in Sources */,
+				39D84FB21F6F2FBE00F5B764 /* Client.swift in Sources */,
+				3974784D1F81D50B007AC5A0 /* MenuViewController.swift in Sources */,
+				39D84FB51F6F3D2B00F5B764 /* HomeCollectionViewCell.swift in Sources */,
 				392241101D96F1ED00546328 /* AppDelegate.swift in Sources */,
 				392241491D97A74A00546328 /* User.swift in Sources */,
-				392241181D96F1ED00546328 /* WellsFargo.xcdatamodeld in Sources */,
-				CA2E5F1F1DB2FB9500FFB6D4 /* storeCell.swift in Sources */,
-				CA2727351DB3527500307044 /* pageContentViewController.swift in Sources */,
-				392241451D97746500546328 /* mainViewController.swift in Sources */,
+				CA2E5F1F1DB2FB9500FFB6D4 /* StoreCollectionViewCell.swift in Sources */,
+				3974784B1F81D439007AC5A0 /* HamburgerViewController.swift in Sources */,
+				392241451D97746500546328 /* MainViewController.swift in Sources */,
+				39D88A3D1FBFEAD800926AFC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,12 +518,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -528,10 +563,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -542,11 +578,14 @@
 			baseConfigurationReference = ADC600E2A03FE7C6FBF718FB /* Pods-WellsFargo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 68W2B53UFP;
 				INFOPLIST_FILE = WellsFargo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WellsFargo/WellsFargo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -556,11 +595,13 @@
 			baseConfigurationReference = 98DC2F835EA17660C071879C /* Pods-WellsFargo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 68W2B53UFP;
 				INFOPLIST_FILE = WellsFargo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BrandonAubrey.WellsFargo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WellsFargo/WellsFargo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -663,19 +704,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		392241161D96F1ED00546328 /* WellsFargo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				392241171D96F1ED00546328 /* WellsFargo.xcdatamodel */,
-			);
-			currentVersion = 392241171D96F1ED00546328 /* WellsFargo.xcdatamodel */;
-			path = WellsFargo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 392241041D96F1ED00546328 /* Project object */;
 }
